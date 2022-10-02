@@ -1,0 +1,61 @@
+.big_menu_bar {
+    position: absolute;
+    width: 250px;
+    height: 100%
+}
+
+.big_page_wrapper {
+    margin: 0 0 0 252px !important
+}
+
+.mini_page_wrapper {
+   margin: 0 0 0 75px !important
+}
+
+.page_content_wrapper {
+    position: absolute;
+    overflow: hidden;
+    overflow-y: scroll;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}   
+
+.menu_group label i {
+    float: right;
+}
+
+.menu_group ul li i {
+    float: right;
+}
+
+.menu_group ul li i:hover,
+.menu_group label i:hover {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu_group  label a {
+    padding: 0;
+    border: 0;
+    font-weight: normal
+}
+
+.user_profile_ddl button {
+   background: none;
+    border: none;
+}
+
+
+.user_profile_ddl button:hover,
+.user_profile_ddl button:focus,
+.user_profile_ddl button:active, {
+   background: none;
+    border: none;
+}
+
+.user_profile_ddl :active, .user_profile_ddl .active, .open  {
+     background: none;
+    border: none;
+}

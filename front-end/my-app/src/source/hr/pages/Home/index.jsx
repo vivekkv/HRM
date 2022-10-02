@@ -2,8 +2,6 @@ import React from 'react'
 import { connect } from 'react-redux';
 import Navigation from './navigation';
 import Header from './header';
-import BreadCrumb from 'staticComponents/breadcrumb';
-import { showNotification } from 'utils/notification';
 import AuthenticationComponent from '../../../components/Base/AuthenticationComponent';
 import Styles from './styles.css';
 
