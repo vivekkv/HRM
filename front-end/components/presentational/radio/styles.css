@@ -1,0 +1,8 @@
+.inline input, .inline p {
+    float: left
+}
+
+.inline span {
+    margin: 10px 0 0 10px;
+    float:left
+}

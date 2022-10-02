@@ -1,0 +1,11 @@
+.tab_wrapper ul li > a {
+    font-size: 13px;
+    color: #273a4a !important;
+    text-transform: uppercase;
+}
+
+.tab_wrapper > li.active > a, .tab_wrapper > li.active > a:hover, .tab_wrapper > li.active > a:focus {
+    font-size: 13px;
+    color: #273a4a !important;
+    text-transform: uppercase;
+}

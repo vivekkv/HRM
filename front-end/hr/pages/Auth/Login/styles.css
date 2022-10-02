@@ -1,0 +1,43 @@
+.login_wrapper {
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.login_content {
+    background: #f3f3f3;
+    padding: 44px 10px 44px 10px;
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    border-radius: 5px;
+}
+
+.btn_login {
+        height: 45px;
+    width: 150px !important;
+    float: right;
+    border: 0;
+    border-radius: 0;
+    background: #23af7c;
+    color: white;
+    border-left: 4px solid black
+}
+
+.btn_login i {
+    margin-left: 10px
+}
+
+.btn_login:hover, .btn_login:focus {
+    background: #23af7c;
+    color: white;
+}
+
+.submit_wrapper label {
+    float:left;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-weight: normal
+}

@@ -1,0 +1,59 @@
+.allChecked, .partialChecked {
+    height: 20px;
+    width: 19px;
+    padding: 2px;
+    margin: 0px 9px 5px 5px;
+    float: left;
+}
+
+.allChecked {
+    background: green
+}
+
+.partialChecked {
+    background: red
+}
+
+.pageItem {
+    height: 35px;
+}
+
+.pageItem i {
+    display: block !important;
+    float: left;
+    opacity: 10;
+    margin: 10px 0 0 70px;
+    color: #4c4c4c;
+    cursor: pointer;
+    font-size: 20px;
+    width: 15px;
+}
+
+.pageItem span {
+    margin: 10px 0 0 15px;
+    float: left;
+    color: #000
+}
+
+.pageItem span:hover {
+    background: #4894cc;
+    padding: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.selected_item {
+    background: #4894cc;
+    padding: 4px;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.role_list {
+    list-style: none
+}
+
+.role_list li {
+    cursor: pointer;
+    font-size: 20px;
+}
